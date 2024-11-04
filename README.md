@@ -12,6 +12,8 @@ This project implements a 2D Simultaneous Localization and Mapping (SLAM) algori
 
 [![2D SLAM Project Demonstration](https://img.youtube.com/vi/0sZk_oPTLg8/maxresdefault.jpg)](https://youtu.be/0sZk_oPTLg8)
 
+Click the image above to watch the [YouTube demonstration](https://youtu.be/0sZk_oPTLg8) and see the SLAM process in action.
+
 ## Requirements
 - Python 3.9.13
 - `rasterio`
