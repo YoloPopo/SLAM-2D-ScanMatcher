@@ -22,7 +22,17 @@ Clone the repository and install the required packages by running:
 ```bash
 pip install -r requirements.txt
 ```
-## Dataset
+
+## Running the SLAM Algorithm
+Navigate to the project directory, then start the SLAM algorithm with the following command:
+```bash
+python SLAM.py
+```
+
+This runs the SLAM process using the Intel Research Lab dataset from Dirk Hähnel. 
+To switch datasets, you can modify the input file name from intel.json to csail.json to use the MIT CSAIL SLAM dataset by Cyrill Stachniss.
+
+## Datasets
 The project uses the Intel Research Lab dataset collected by Dirk Hähnel and the MIT Computer Science & Artificial Intelligence Laboratory SLAM dataset provided by Cyrill Stachniss. The datasets includes:
 - 910 readings for Intel and 406 readings for MIT
 - 180° Field of View 2D LiDAR data
@@ -59,5 +69,6 @@ The algorithm successfully produces a globally consistent map and achieves corre
 - Intel Research Lab SLAM dataset provided by Dirk Hähnel
 - MIT Computer Science & Artificial Intelligence Laboratory SLAM dataset provided by Cyrill Stachniss
 - Coursera - Motion Planning for Self-Driving Car - Occupancy Grids - https://www.coursera.org/lecture/motion-planning-self-driving-cars/lesson-1-occupancy-grids-oJcwU
+- FastSLAM: A Factored Solution to the Simultaneous Localization and Mapping Problem by M. Montemerlo, S. Thrun, D. Koller, and B. Wegbreit
 - A Frame-to-Frame Scan Matching Algorithm for 2D Lidar Based on Attention by Shan Huang 1,2 and Hong-Zhong Huang
 - Real-Time Loop Closure in 2D LIDAR SLAM by Wolfgang Hess, Damon Kohler, Holger Rapp and Daniel Andor
