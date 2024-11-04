@@ -8,6 +8,10 @@ This project implements a 2D Simultaneous Localization and Mapping (SLAM) algori
 - **FastSLAM** algorithm implementation
 - **Particle filter** for robot pose belief representation
 
+## Demonstration
+
+[![2D SLAM Project Demonstration](https://img.youtube.com/vi/0sZk_oPTLg8/maxresdefault.jpg)](https://youtu.be/0sZk_oPTLg8)
+
 ## Requirements
 - Python 3.9.13
 - `rasterio`
